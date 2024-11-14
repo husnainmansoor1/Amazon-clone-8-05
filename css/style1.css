@@ -1,0 +1,132 @@
+body{
+    background-color: #ffffff;
+}
+.deal-panel{
+    display: flex;
+    height: 33px;
+    background-color: #ffffff;
+    align-items: center;
+}
+.deal-ops ul{
+    display: flex;
+    padding: 0px 9px 0px 15px;
+}
+.deal-ops ul li{
+    padding: 0px 11px;
+    list-style: none;
+    font-size: 0.73rem;
+}
+.deal-ops ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+.deal-ops ul li a:hover{
+    color: orange;
+}
+
+
+.deal-ops ul li a::after{
+    content: ' ';
+    width: 100%;
+    display: block;
+    margin-top: 3px;
+    height: 2px;
+    background-color: orange;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    
+}
+.deal-ops ul li a:hover::after{
+    transform: scaleX(1);
+}
+
+/* deals */
+.winter img{
+    margin-bottom: 20px;
+    background-size: cover ;
+    width: 1349px;
+    margin-right: -1px;
+}
+.sales-offer p{
+    height: 28px;
+    font-size: 20px;
+    color: #0f1111;
+    margin: 0px 0px 0px 30px;
+    font-weight: 600;
+}
+.fav-offer{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    background-color: #f8f7f7;
+}
+.fav-offer-2{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    background-color: #f8f7f7;
+}
+.box-1{
+    width: 20%;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;  
+    margin: 25px 0px;  
+}
+.box-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0efef;
+    height: 200px;
+    border-radius: 5px;
+}
+.offer-img{
+    height: 160px;
+    width: 60px;
+    background-size: cover;
+    padding: 10px 0px 15px;
+    margin: 30px 0px;
+    mix-blend-mode:multiply;  
+    cursor: pointer;  
+}
+.deal-p{
+    margin: 2px 5px;
+    cursor: pointer;
+    
+}
+.deal-p .pa{
+    font-size: 12px;
+    color: #cc0c39;
+    margin-top: 10px;
+}
+.deal-p .pa span{
+    font-size: 12px;
+    background-color: #cc0c39;
+    padding: 5px;
+    margin-left: -32px;
+    border-radius: 2px;
+    height: 24px;
+}
+.deal-p .pa-2{
+    font-size: 12px;
+    color: #cc0c39;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.deal-p .pa-2 span{
+    font-size: 12px;
+    background-color: #cc0c39;
+    padding: 5px;
+    margin-left: -3px;
+    border-radius: 2px;
+    height: 24px;
+}
+.deal-p .pa-1{
+    font-size: 0.87rem;
+    color: #0f1111;
+    font-weight: 100;
+    text-align: left;
+    margin-left: -1px;
+}
